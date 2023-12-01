@@ -1,0 +1,13 @@
+-- create_tables3.sql
+-- Aubrey Moore 2023-11-22
+
+CREATE TABLE images (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    original_file_path TEXT NOT NULL UNIQUE,
+    geometry
+);
+
+CREATE TABLE boxes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    original_file_path TEXT NOT NULL UNIQUE,
+);
